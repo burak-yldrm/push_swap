@@ -22,18 +22,16 @@ void	rotate_ab(t_a_stack **a_stack, t_b_stack **b_stack);
 void	reverse_rotate_a(t_a_stack **source);
 void	reverse_rotate_b(t_b_stack **source);
 void	reverse_rotate_ab(t_a_stack **a_stack, t_b_stack **b_stack);
-void	over_tri(t_a_stack **a_stack, t_b_stack **b_stack, int max);
-void	lower_tri(t_a_stack **a_stack, t_b_stack **b_stack, int max);
 
 void	error_message(const char *error_message);
 int		content_control(char **content);
-int		in_line(t_stack *source, int count);
+int		in_line(t_stack *source, int count, int options);
 int		duplicate_arguments(char **content);
 void	control_processor(t_a_stack **a_sk, char **av, int arg_size);
 void	sort_trion(t_stack **content, int count);
 void	kvintett(t_a_stack **a_stack, t_b_stack **b_stack);
 int		*array_creator(t_a_stack *a_stack);
-int		array_min_val(int *arr, int size);
+int		array_min_index(int *arr, int size);
 
 // PRINT
 void	print_b_struct(t_b_stack *b_stack);

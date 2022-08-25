@@ -3,7 +3,7 @@
 int	lstsize(t_stack *lst)
 {
 	t_stack	*temp;
-	int	i;
+	size_t	i;
 
 	temp = lst;
 	i = 0;
