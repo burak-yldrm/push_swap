@@ -44,6 +44,4 @@ void	kvintett(t_a_stack **a_stack, t_b_stack **b_stack)
 		}
 		free(arr);
 	}
-	print_a_struct(*a_stack);
-	// print_b_struct(*b_stack);
 }

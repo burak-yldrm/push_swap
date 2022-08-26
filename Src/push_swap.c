@@ -13,5 +13,5 @@ int	main(int ac, char **av)
 	if (lstsize(a_node) <= 5)
 		kvintett(&a_node, &b_node);
 	//print_a_struct(a_node);
-	printf("\n");
+	//printf("\n");
 }

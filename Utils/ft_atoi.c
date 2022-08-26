@@ -23,5 +23,7 @@ int	ft_atoi(const char *str)
 		c = (c * 10) + (str[a] - '0');
 		a++;
 	}
+	if (c > 2147483647 || c < -2147483648)
+		error_message("The value entered is outside the integer value!\n");
 	return (c * b);
 }

@@ -20,7 +20,7 @@ int	array_min_index(int *arr, int size)
 	int	x;
 	int	y;
 	int	count;
-	int count_2;
+	int	count_2;
 
 	y = 0;
 	count = 0;
