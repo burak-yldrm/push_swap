@@ -2,7 +2,6 @@
 
 void	lstadd_front(t_stack **lst, t_stack *new, int index)
 {
-
 	if (!new)
 		return ;
 	new->index = index;

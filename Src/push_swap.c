@@ -12,6 +12,11 @@ int	main(int ac, char **av)
 		sort_trion(&a_node, lstsize(a_node));
 	if (lstsize(a_node) <= 5)
 		kvintett(&a_node, &b_node);
+	if (lstsize(a_node) > 5)
+	{
+		a_node = index_sort(a_node);
+		radix_sort(&a_node, &b_node);
+	}
 	//print_a_struct(a_node);
 	//printf("\n");
 }

@@ -32,6 +32,8 @@ void	sort_trion(t_stack **content, int count);
 void	kvintett(t_a_stack **a_stack, t_b_stack **b_stack);
 int		*array_creator(t_a_stack *a_stack);
 int		array_min_index(int *arr, int size);
+void	radix_sort(t_stack **a, t_stack **b);
+t_stack	*index_sort(t_stack *a);
 
 // PRINT
 void	print_b_struct(t_b_stack *b_stack);
